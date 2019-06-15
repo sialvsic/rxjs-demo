@@ -1,0 +1,29 @@
+{
+  "name": "rxjs-demo",
+  "version": "1.0.0",
+  "description": "This repo used for learning the rxjs and showcase the example",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build <your entry file>",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sialvsic/rxjs-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sialvsic/rxjs-demo/issues"
+  },
+  "homepage": "https://github.com/sialvsic/rxjs-demo#readme",
+  "dependencies": {
+    "rxjs": "^6.5.2",
+    "rxjs-compat": "^6.5.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
